@@ -9,7 +9,6 @@ function JumpMario(){
 
 function jump(){
     mario.classList.add('jump');
-    console.log('oi')
     setTimeout(()=>{
         mario.classList.remove('jump')
     },1000)
